@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import Table from './components/Table.vue'
+import Counter from "./components/Counter.vue";
+import List from "./components/common/List.vue"
+import MenuBar from "./components/MenuBar.vue"
 </script>
 
 <template>
@@ -9,8 +11,10 @@ import Table from './components/Table.vue'
   </header>
 
   <main>
-    <Table></Table>
-  </main>
+    <MenuBar title="MenuBar"></MenuBar>
+<Counter title="Welcome to vuejs"></Counter>
+<List></List>
+</main>
 </template>
 
 <style scoped>
